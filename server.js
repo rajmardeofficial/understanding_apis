@@ -16,4 +16,8 @@ app.get('/api/:key_secret', (req, res)=>{
 })
 
 
+app.post('/', (req, res)=>{
+    console.log(req);
+})
+
 app.listen(3000, ()=>console.log('server started on port 3000')) 
